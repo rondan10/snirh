@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    height: calc(100% - 60px); /* Altura total menos el header */
+  }
+  a {
+    color: #0077be;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

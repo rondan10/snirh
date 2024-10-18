@@ -1,0 +1,32 @@
+<div class="container">
+<main class="main-content">
+  <h2>Unidades Hidrográficas</h2>
+  
+  <section>
+    <h3>Datos generales</h3>
+    <app-data-table [data]="generalData"></app-data-table>
+  </section>
+
+  <section>
+    <h3>Datos técnicos</h3>
+    <app-data-table [data]="technicalData"></app-data-table>
+  </section>
+
+  <section>
+    <h3>Información contacto</h3>
+    <app-data-table [data]="contactData"></app-data-table>
+  </section>
+
+  <section>
+    <h3>Descargas</h3>
+    <app-data-table [data]="downloadsData"></app-data-table>
+  </section>
+
+  <section>
+    <h3>Diccionario datos</h3>
+    <app-data-table [data]="dictionaryData"></app-data-table>
+  </section>
+
+  <app-map></app-map>
+</main>
+</div>

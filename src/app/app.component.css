@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  .container {
+    display: flex;
+    height: calc(100% - 60px); /* Altura total menos el header */
+  }
+  a {
+    color: #0077be;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

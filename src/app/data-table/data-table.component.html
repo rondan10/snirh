@@ -1,0 +1,14 @@
+<table *ngIf="data && data.length">
+    <thead>
+      <tr>
+        <th *ngFor="let key of getKeys(data[0])">{{ key }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td *ngFor="let key of getKeys(row)">{{ row[key] }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <p *ngIf="!data || !data.length">No hay datos disponibles</p>
+  

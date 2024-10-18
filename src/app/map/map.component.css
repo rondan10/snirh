@@ -1,0 +1,10 @@
+.map-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.map-container img {
+  max-width: 50%;
+  height: auto;
+  border: 1px solid #ddd;
+}

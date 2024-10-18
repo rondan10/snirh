@@ -1,0 +1,35 @@
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 5px;
+}
+
+.folder-icon::before {
+  content: "📁";
+  margin-right: 5px;
+}
+
+.file-icon::before {
+  content: "📄";
+  margin-right: 5px;
+}
+.container {
+  display: flex;
+  height: calc(100% - 60px); /* Altura total menos el header */
+}
