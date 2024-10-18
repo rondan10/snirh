@@ -7,6 +7,7 @@ import { MapComponent } from './map/map.component';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CommonModule } from '@angular/common';
     SidebarComponent,
     MainContentComponent,
     DataTableComponent,
-    MapComponent
+    MapComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
